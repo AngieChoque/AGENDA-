@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body {
+  display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    flex-direction: column;
+  }
+  h1 {
+    margin-bottom: 0;
+    padding-top: 0px;
+    font-size: 100px;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+  }
+
+
+input{
+  width: 15em;
+  height: 2em;
+  margin-bottom: 0.7em;
+  padding: 0.5em;
+  padding-left: 0.8em;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: "Questrial", sans-serif;
+  border: 0px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 60%);
+  align-items: center;
+  }
+ 
+button{
+   margin-top: 1em;
+    margin-bottom: 1.5em;
+    width: 8em;
+    height: 2em;
+    background-color: #5DC1B9;
+    border-radius: 100px;
+    border: 0px;
+    font-size: 1em;
+    color: white;
+    box-shadow: 0px 5px 0px #7d8074ef;
+    text-shadow: 1px 2px 3px #000000;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+li { 
+  color: white;
+  text-shadow: 1px 2px 3px #000000;
+  font-family: 'Courier New', Courier, monospace;
+}
+.fa, .fas {
+  font-weight: 900;
+}
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
